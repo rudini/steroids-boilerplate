@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es5",
         "noImplicitAny": true,
-        "removeComments": false,
+        "removeComments": false, // do not set to true, because the ng-annotate plugin will not work
         "preserveConstEnums": true,
         "sourceMap": true
     },
