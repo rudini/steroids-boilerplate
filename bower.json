@@ -1,9 +1,9 @@
 {
-  "name": "myFirstApp",
+  "name": "steroids-boilerplate",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "angular": "1.3.x",
+    "angular": "latest",
     "supersonic": "1.x"
   }
 }
