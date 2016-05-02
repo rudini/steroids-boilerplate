@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "typings/main.d.ts",
+        "typings/main"   
+    ]
+}
