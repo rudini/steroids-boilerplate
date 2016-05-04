@@ -1,22 +1,24 @@
-import {Component} from '../../decorators';
+import {Component} from '../../decorators'
+var counterTemplate = require('./CounterComponent.tpl.html');
 
 @Component({
   controllerAs: 'ctrl',
-  template: `
-    <pre>{{ctrl}}</pre>
-    <div>
-      <input type="text" ng-model="ctrl.count">
-      <button type="button" ng-click="ctrl.decrement();">-</button>
-      <button type="button" ng-click="ctrl.increment();">+</button>
-    </div>
-  `
+  template: counterTemplate
+  // template: `
+  //   <pre>{{ctrl}}</pre>
+  //   <div>
+  //     <input type="text" ng-model="ctrl.count">
+  //     <button type="button" ng-click="ctrl.decrement() ">-</button>
+  //     <button type="button" ng-click="ctrl.increment() ">+</button>
+  //   </div>
+  // `
 })
 export class CounterTest {
-  count = 0;
+  count = 0
   increment() {
-    this.count++;
+    this.count++
   }
   decrement() {
-    this.count--;
+    this.count--
   }
 }
