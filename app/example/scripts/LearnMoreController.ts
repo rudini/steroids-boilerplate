@@ -1,6 +1,10 @@
 export class LearnMoreController {
+  
+  navbarTitle: string
+  
   /* @ngInject */
-  constructor($scope: Navbar, supersonic: supersonic) {
-    $scope.navbarTitle = "Learn a lot More"
+  constructor(supersonic: supersonic) {
+    var ctrl = this;
+    ctrl.navbarTitle = "Learn a lot More"
   }
 }

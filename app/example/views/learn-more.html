@@ -1,6 +1,6 @@
-<div class="padding" ng-controller="LearnMoreController">
+<div class="padding" ng-controller="LearnMoreController as ctrl">
   <super-navbar>
-    <super-navbar-title ng-bind="navbarTitle"></super-navbar-title>
+    <super-navbar-title ng-bind="ctrl.navbarTitle"></super-navbar-title>
   </super-navbar>
 
   <h3>Working with AngularJS</h3>
@@ -10,7 +10,7 @@
   <div class="card padding">
     <h4>Navigation Bar Title (Look Up!)</h4>
     <label class="item item-input">
-      <input type="text" ng-model="navbarTitle">
+      <input type="text" ng-model="ctrl.navbarTitle">
     </label>
   </div>
 
