@@ -15,6 +15,8 @@ module.exports = {
     entry: {
         example: './app/example/index.ts',
         common: './app/common/index.ts',
+        geolocation: './app/geolocation/index.ts',
+        superhero: './app/superhero/index.ts'
     },
     resolve: {
         extensions: ['', '.js', '.ts']

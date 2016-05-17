@@ -2,6 +2,9 @@
   "name": "steroids-boilerplate",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "steroids connect --gruntTask=webpack --livereload"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
