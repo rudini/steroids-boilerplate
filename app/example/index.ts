@@ -13,4 +13,6 @@ app.config(['$compileProvider', function ($compileProvider: ng.ICompileProvider)
 
 app.controller('LearnMoreController', LearnMoreController)
 app.controller('SettingsController', SettingsController)
-app.component('testComponent', CounterTest)
+//app.component('testComponent', CounterTest)
+
+app.registerComponent(CounterTest)
