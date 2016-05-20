@@ -3,7 +3,8 @@ var counterTemplate: string = require('./CounterComponent.tpl.html');
 
 @Component({
   controllerAs: 'ctrl',
-  template: counterTemplate
+  template: counterTemplate,
+  selector: 'test-component'
   // template: `
   //   <pre>{{ctrl}}</pre>
   //   <div>
