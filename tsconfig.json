@@ -11,6 +11,6 @@
         "node_modules",
         "dist",
         "typings/main.d.ts",
-        "typings/main"   
+        "typings/main"
     ]
 }

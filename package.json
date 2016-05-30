@@ -3,9 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "steroids connect --gruntTask=webpack --livereload"
+    "start": "steroids connect --gruntTask=webpack --livereload",
+    "typings-install": "typings install",
+    "postinstall": "npm run typings-install"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-babel": "^6.0.0",
