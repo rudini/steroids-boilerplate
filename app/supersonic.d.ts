@@ -64,5 +64,10 @@ declare namespace sc {
 
   interface IDevice {
     geolocation: IGeolocation
+    ready: IReady
+  }
+
+  interface IReady {
+    then: (callback: Function) => void
   }
 }

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "angular": "latest",
-    "supersonic": "1.x"
+    "supersonic": "1.x",
+    "telephonenumber": "git://github.com/macdonst/TelephoneNumberPlugin.git"
   }
 }

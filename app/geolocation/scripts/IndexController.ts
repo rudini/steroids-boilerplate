@@ -5,7 +5,7 @@ export class IndexController {
 
   /* @ngInject */
   constructor(supersonic: supersonic) {
-    var ctrl = this;
+    let ctrl = this;
 
     ctrl.position = undefined;
 

@@ -1,5 +1,5 @@
 import {Component} from '../../decorators'
-var counterTemplate: string = require('./CounterComponent.tpl.html');
+let counterTemplate: string = require('./CounterComponent.tpl.html');
 
 @Component({
   controllerAs: 'ctrl',

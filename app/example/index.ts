@@ -8,9 +8,10 @@ const app = <IModule>angular.module('example', [
   'supersonic'
 ])
 
-app.config(['$compileProvider', function ($compileProvider: ng.ICompileProvider) {
-  $compileProvider.debugInfoEnabled(false)
-}])
+// app.config(['$compileProvider', function ($compileProvider: ng.ICompileProvider) {
+//   $compileProvider.debugInfoEnabled(false)
+// }])
+
 
 app.controller('LearnMoreController', LearnMoreController)
 app.controller('SettingsController', SettingsController)
